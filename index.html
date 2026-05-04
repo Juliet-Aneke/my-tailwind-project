@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="./css/output.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
      <header class="h-25 w-full border-b border-white-shade/10 sticky top-0 z-50 bg-Dark-blue shadow-xl">
         <nav class="h-full w-9/10 mx-auto flex items-center justify-between px-4 relative">
 
             <div class="flex flex-row gap-3">
-                <span class="self-start w-15 h-15 flex justify-center items-center bg-Light blue rounded-lg bg-blue-700 ">
+                <span class="self-start w-15 h-15 flex justify-center items-center bg-Light-blue rounded-lg">
                     <i class="fa-solid fa-bolt text-white-shade"></i>
                 </span>
                 <h1 class="text-4xl font-bold text-white-shade flex items-center justify-center">Nexus<h1>
@@ -36,7 +37,7 @@
             </ul>
             
             <div class=" hidden lg:flex gap-10 items-center">
-                <a href="#" class="bg-blue-700 text-2xl py-5 px-10 rounded-2xl text-white-shade font-medium hover:translate-y-2 ">Get Started</a>
+                <a href="#" class="bg-Light-blue text-2xl py-5 px-10 rounded-2xl text-white-shade font-medium hover:translate-y-2 ">Get Started</a>
             </div>
 
 
@@ -75,16 +76,16 @@
 
                 <div class="h-full relative z-2 flex flex-col gap-6 md:gap-10">
 
-                    <h1 class="text-white-shade font-bold text-4xl      lg:text-6xl 2xl:text-8xl w-9/10 max-w-150  2xl:max-w-150">
-                        Building Your <span class="text-blue-400">Digital</span> Future
+                    <h1 class="text-white-shade font-bold text-4xl lg:text-6xl 2xl:text-8xl w-9/10 max-w-150  2xl:max-w-150">
+                        Building Your <span class="text-Light-blue">Digital</span> Future
                     </h1>
 
-                    <p class=" text-white-shade w-9/10 max-w-150 2xl:max-w-180 text-sm lg:text-2xl 2xl:text-2xl">
+                    <p class=" text-white-shade w-9/10 max-w-150 2xl:max-w-180 text-sm  lg:text-4xl 2xl:text-3xl">
                         Transform your business with cutting-edge solutions that drive growth and innovation in the digital landscape. 
                     </p>
 
                     <div class="flex flex-col md:flex-row gap-3 lg:gap-5 lg:mt-16">
-                        <a href="#" class="text-2xl bg-blue-500 text-white-shade py-2 lg:py-5 px-16 rounded-2xl font-bold">Start Your Journey</a>
+                        <a href="#" class="text-2xl bg-Light-blue text-white-shade py-2 lg:py-5 px-16 rounded-2xl font-bold">Start Your Journey</a>
                         <a href="#" class=" text-2xl border border-white-shade text-white shade py-2 lg:py-5 px-16 rounded-2xl font-bold">Learn More</a>
                     </div>
 
@@ -96,8 +97,89 @@
             </div>
         </section>
 
-        <section>
 
+        <!--Services-->
+
+        <section class="w-full bg-Blue-shade py-16">
+            <div class="w-9/10 max-w-7xl mx-auto flex flex-col gap-6">  <!--  this div helps to control the margin-->
+                
+                <div class="flex flex-col gap-3 items-center">
+                    <h2 class="font-bold text-white-shade text-2xl lg:text-3xl 2xl:text-4xl">Our Services</h2>
+                    <p class="text-white-shade text-sm text-center w-8/10 max-w-130 md:text-lg">We provide comprehensive solutions to help your business thrive in the digital age</p>
+                </div>
+            
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">  <!---this is for @media-->
+                    <!--FIRST CARD-->
+                    <div class="flex flex-col gap-6 items-start border py-8 px-4 rounded-2xl border-black/10 shadow-xl bg-Light-blue/10">
+                        <span class="self-start w-10 h-10 flex justify-center items-center bg-Light-blue rounded-lg">
+                        <i class="fa-solid fa-code text-white-shade"></i>
+                        </span>
+                        <h3 class="font-medium lg:text-2xl text-white-shade">Web Development</h3>
+
+                        <p class=" text-white-shade w-9/10 max-w-120 2xl:max-w-180 text-sm lg:text-xl 2xl:text-2xl">                             
+                            Custom websites and web applications built with modern technologies for optimal performance.
+                        </p>
+                    </div>
+
+                    <!--SECOND CARD-->
+                    <div class="flex flex-col gap-4 border py-8 px-4 rounded-2xl border-black/10 shadow-xl  bg-Light-blue/10">
+
+                        <span class="self-start w-10 h-10 flex justify-center items-center bg-Green rounded-lg">
+                        <i class="fa-solid fa-mobile-screen-button text-white-shade"></i>
+                        </span>
+
+                        <h3 class=" font-medium lg:text-2xl text-white-shade">Mobile Apps</h3>
+                        <p class=" text-white-shade w-9/10 max-w-120 2xl:max-w-180 text-sm lg:text-xl 2xl:text-2xl">
+                            Native and cross-platforms mobile applications that deliver exceptional user experiences.
+                        </p>
+                    </div>
+
+                    <!--THIRD CARD-->
+                    <div class="flex flex-col gap-4 border py-8 px-4 rounded-2xl border-black/10 shadow-xl  bg-Light-blue/10">
+                        
+                        <span class="self-start w-10 h-10 flex justify-center items-center bg-Purple rounded-lg">
+                        <i class="fa-solid fa-chart-line text-white-shade"></i>
+                        </span>
+
+                        <h3 class="font-bold lg:text-2xl">Financial Consulting</h3>
+                        <p class="text-sm text-black/70">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="w-full bg-Dark-blue py-16">
+            <div class="w-9/10 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center">
+                <div>
+                    <img src="./images/about-image.png" alt="Board members meeting" class="w-full h-full object-cover aspect-4/3 rounded-2xl">
+                </div>
+
+                <article>
+                    <h2>
+                        About Ne
+                    </h2>
+                    
+                    <p>
+
+                    </p>
+
+                    <div>
+                        <p>
+                            <span></span>
+                            <span></span>
+                        </p>
+
+                        <p>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 </body>
