@@ -9,3 +9,8 @@
     --color-white-shade:#f0f1f6;
 
 }
+
+
+.card{
+    @apply flex flex-col gap-6 border py-8 px-4 rounded-2xl border-black/10 shadow-xl bg-Light-blue/10 
+}
